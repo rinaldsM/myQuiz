@@ -1,0 +1,15 @@
+body{
+     background-color: rgb(36, 36, 36);
+}
+/*animation to fade colour*/
+@keyframes darkAnim{
+    from {background-color: rgb(255, 255, 255)}
+    to {background-color: rgb(36, 36, 36)}
+}
+
+/*this creates an outline on the text & changes colour*/
+form{
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: .4px;
+    -webkit-text-stroke-color: black;
+}
