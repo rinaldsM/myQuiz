@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Primary style sheet-->
+    <link rel="stylesheet" href="Styles/Styles.css">
+    <!-- Secondary style sheet to determine colour theme, changeable by Js-->
+    <link id="theme" rel="stylesheet" href="Styles/LightTheme.css">
+</head>
+<body>
+    
+    <form>
+        <!--Legend is a text at the top of the form for instructions etc-->
+        <h2>Time Left: 30</h2>
+        <h1>0</h1>
+        <legend id="instructions" >What's the capital of France?</legend>
+        <!--selectable radio-->
+        <input type="radio" id="answerOne">
+        <!--along with its label-->
+        <label for="answerOne">Paris</label>
+        <br>
+        <input type="radio" id="answerTwo">
+        <label for="answerTwo">London</label>
+        <br>
+        <input type="radio" id="answerThree">
+        <label for="answerThree">Berlin</label>
+        <br>
+        <input type="button" value="Press">
+        <br>
+        <!--this p will show the "correct" or "wrong" text-->
+        <p id="p1"></p>
+        <br>
+        <br>
+        <input id="lightThemeButton" type="button" value="Light Theme">
+        <input id="darkThemeButton" type="button" value="Dark Theme">
+    </form>
+<!--linked js script-->
+    <script src="Code/java.js"></script>
+</body>
+</html>
